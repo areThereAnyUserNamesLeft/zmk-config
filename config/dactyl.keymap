@@ -32,8 +32,8 @@
    &kp LGUI &kp Z &kp X &kp C &kp V &kp B          &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
             &kp K_COPY &kp K_PASTE                              &kp KP_PLUS &kp EQUAL
                       &kp LSHFT &mo LOWER          &mo RAISE &kp BKSP
-                      &kp LCTRL &kp SPACE          &kp RET   &kp BTN2
-                      &kp LCTRL &kp LALT           &kp BTN1  &kp BTN3
+                      &kp LCTRL &kp SPACE          &kp RET   &none
+                      &kp LCTRL &kp LALT           &kp none  &none
                         >;
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
                 };
