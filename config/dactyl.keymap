@@ -30,7 +30,7 @@
    &kp TAB  &kp Q &kp W &kp F &kp P &kp G          &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
    &kp ESC  &kp A &kp R &kp S &kp T &kp D          &kp H &kp N  &kp E     &kp I   &kp O    &kp SQT
    &kp LGUI &kp Z &kp X &kp C &kp V &kp B          &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
-            &kp K_COPY &kp K_PASTE                              &kp KP_PLUS &kp EQUALS
+            &kp K_COPY &kp K_PASTE                              &kp KP_PLUS &kp EQUAL
                       &kp LSHFT &mo LOWER          &mo RAISE &kp BKSP
                       &kp LCTRL &kp SPACE          &kp RET   &kp BTN2
                       &kp LCTRL &kp LALT           &kp BTN1  &kp BTN3
@@ -49,7 +49,7 @@
                         bindings = <
    &trans    &kp EXCL   &kp AT   &kp HASH &kp DLLR  &kp PRCNT            &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR        &kp TILD
    &kp ESC   &kp N1     &kp N2   &kp N3   &kp N4    &kp N5               &kp N6    &kp N7   &kp N8          &kp N9   &kp N0          &kp GRAVE
-   &kp LSHFT &kp EQUALS &kp PLUS &trans   &kp LCBR &kp RCBR                    &kp LBRC  &kp RBRC &trans          &trans   &kp NON_US_BSLH &kp NON_US_HASH
+   &kp LSHFT &kp EQUAL &kp PLUS &trans   &kp LCBR  &kp RCBR             &kp LBRC  &kp RBRC &trans          &trans   &kp NON_US_BSLH &kp NON_US_HASH
                                                   &trans &trans &trans &trans
                                                   &trans &trans &trans &trans
                                                   &trans &trans &trans &trans
@@ -67,7 +67,6 @@
      &bt BT_CLR &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3      &bt BT_SEL 4           &trans      &trans    &trans    &trans    &trans    &trans
      &kp ESC    &kp C_VOLUME_DN &kp K_MUTE   &kp K_MUTE   &kp C_VOLUME_UP   &trans                 &trans      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans
      &trans     &kp C_BRI_DN    &trans       &trans       &kp C_BRI_UP      &trans                 &kp K_CMENU &kp HOME  &kp PG_DN &kp PG_UP &kp END   &trans
-
                                                   &trans &trans &trans &trans
                                                   &trans &trans &trans &trans
                                                   &trans &trans &trans &trans
